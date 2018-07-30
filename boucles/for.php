@@ -324,7 +324,7 @@ $videotheque = array(
     'acteurs' => array(
       'Uma Thurman', 'Lucy Liu', 'Sonny Chiba',
     ),
-    'synopsis' => 'Au cours d\'une cérémonie de mariage en plein désert, un commando fait irruption dans la chapelle et tire sur les convives.<br> Laissée pour morte, la Mariée enceinte retrouve ses esprits après un coma de quatre ans.',
+    'synopsis' => 'Au cours d\'une cérémonie de mariage en plein désert,<br> un commando fait irruption dans la chapelle et tire sur les convives.<br> Laissée pour morte, la Mariée enceinte retrouve ses esprits après un coma de quatre ans.',
   )
 );
 echo '13.Mes films : <br>';
