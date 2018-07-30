@@ -2,6 +2,8 @@
 /*****************************************/
 /********** Conditions Composées *********/
 /*****************************************/
+
+
 echo "CONDITIONS COMPOSEES <br><br><br>";
 echo "Le 'ET' logique (&&)  <br><br>";
 echo "Avec le 'ET' toutes les conditions DOIVENT etre vrai pour entrer dans le premier bloc.  <br><br> ";
@@ -134,3 +136,5 @@ if($animal == "Chat" || $vivant){
   echo "Non";
 }
 echo "<br><br>";
+
+

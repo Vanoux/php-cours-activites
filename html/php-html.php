@@ -9,12 +9,18 @@
     <!-- Instructions : Afficher la liste des éléves qui sont présent dans le tableau $students -->
     <?php
         //students
-        $students = ['Hulk', 'Iron Man', 'Wonder Woman', 'Black Widow', 'Malicia'];
+        $students = ['Hulk', 'Iron Man', 'Wonder Woman', 'Black Widow', 'Malicia']; 
      ?>
      <ul>
-       <?php //display the students here ?>
+       <?php //display the students here 
+       foreach ($students as $key => $value){
+        echo $value . "<br>";
+      }
+       ?>
      </ul>
+
      <hr>
+     
      <h1>Date du jour</h1>
      <form>
 
