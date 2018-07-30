@@ -31,13 +31,13 @@ echo "<br>";
 echo "Je veux un chien ou chat couleur marron avec des yeux verts ";
 echo "<br>";
 //n'hésitez pas à changer les valeurs pour tester si ça fonctionne
-$animal = "Chat";
+$animal = "Chien";
 $vivant = true;
-$couleur = "Marron";
+$couleur = "Beige";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
+if( $animal == "Chien" && $vivant && $couleur == "Marron" && $yeux == "Vert"){
   echo 'Oui';
 }else {
   echo 'Non';
@@ -53,15 +53,18 @@ echo "<br>";
 //n'hésitez pas à changer les valeurs pour tester si ça fonctionne
 $animal = "Chat";
 $vivant = true;
-$couleur = "Blanc";
+$couleur = "Rouge";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
-  echo 'Oui';
-}else {
-  echo 'Non';
-}
+if( $animal == "Chat" && $vivant && $couleur == "Marron" && $yeux == "Vert" ){
+  echo '1er animal = Oui';
+} 
+elseif ( $animal == "Chat" && $vivant && $couleur == "Blanc" && $yeux == "Vert"){
+  echo '2ème animal = Oui';
+} else {
+  echo 'Non ! Aucun animals a ces caractériqtiques';
+} 
 echo "<br><br>";
 
 //----------------------------------------
@@ -77,10 +80,16 @@ $couleur = "Noir";
 $yeux = "Vert";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if( 0 ){
-  echo 'Oui';
-}else {
-  echo 'Non';
+if( $animal == "Chien" && $vivant == true && $couleur == "Marron" && $yeux == "Bleus"){
+  echo 'Oui j\'ai ce chien !';
+}
+elseif ( $animal == "Chat" && $vivant == true && $couleur == "Orange" && $yeux == "Bleus") {
+  echo 'Oui j\'ai ce chat !';
+}
+elseif ( $animal == "Chien" && $vivant && $couleur == "Noir" && $yeux == "Bleus"){
+  echo 'Oui j\'avais ce chien !';
+} else {
+  echo 'Non, je n\'ai aucun de ces animaux !';
 }
 echo "<br><br>";
 //----------------------------------------
